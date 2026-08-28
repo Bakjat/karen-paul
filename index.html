@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Paul + Karen</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color: white;
+      background:
+        radial-gradient(circle at 20% 10%, #102d64 0, transparent 25%),
+        radial-gradient(circle at 80% 80%, #35154b 0, transparent 25%),
+        #050b18;
+    }
+
+    header {
+      text-align: center;
+      padding: 70px 20px 35px;
+    }
+
+    .butterfly {
+      font-size: 70px;
+      filter: hue-rotate(170deg);
+    }
+
+    h1 {
+      margin: 15px 0 5px;
+      font-size: 42px;
+    }
+
+    .subtitle {
+      color: #8bbcff;
+      letter-spacing: 3px;
+      font-size: 13px;
+    }
+
+    .welcome {
+      max-width: 650px;
+      margin: 20px auto 45px;
+      color: #b8c5da;
+      line-height: 1.7;
+    }
+
+    .menu {
+      width: min(900px, 92%);
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      padding-bottom: 50px;
+    }
+
+    .card {
+      background: rgba(10, 24, 49, .85);
+      border: 1px solid #183c70;
+      border-radius: 18px;
+      padding: 28px 15px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      transition: .2s;
+    }
+
+    .card:hover {
+      border-color: #559cff;
+      transform: translateY(-2px);
+    }
+
+    .icon {
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    .card strong {
+      display: block;
+      font-size: 18px;
+    }
+
+    .card span {
+      display: block;
+      color: #8293ad;
+      font-size: 13px;
+      margin-top: 7px;
+    }
+
+    footer {
+      text-align: center;
+      color: #72829b;
+      padding: 10px 20px 40px;
+      font-size: 13px;
+    }
+
+    @media (min-width: 700px) {
+      .menu {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="butterfly">🦋</div>
+
+    <h1>Paul + Karen</h1>
+
+    <div class="subtitle">OUR PLACE • OUR STORY</div>
+
+    <p class="welcome">
+      Our little corner of the internet.
+      A place for our memories, our favorite things,
+      our adventures, and everything that makes us, us.
+    </p>
+  </header>
+
+  <main class="menu">
+
+    <a class="card" href="#">
+      <div class="icon">🎨</div>
+      <strong>Our Canvas</strong>
+      <span>Paint our story</span>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">🎬</div>
+      <strong>Movies</strong>
+      <span>Our favorites</span>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">🎵</div>
+      <strong>Music</strong>
+      <span>Our soundtrack</span>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">🎮</div>
+      <strong>Games</strong>
+      <span>What we play</span>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">🌎</div>
+      <strong>Places</strong>
+      <span>Been & want to go</span>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">📷</div>
+      <strong>Photos</strong>
+      <span>Our memories</span>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">♡</div>
+      <strong>Timeline</strong>
+      <span>Our story</span>
+    </a>
+
+    <a class="card" href="#">
+      <div class="icon">💌</div>
+      <strong>Letters</strong>
+      <span>For each other</span>
+    </a>
+
+  </main>
+
+  <footer>
+    P + K • Built together, pixel by pixel.
+  </footer>
+
+</body>
+</html>
